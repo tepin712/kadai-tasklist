@@ -13,4 +13,4 @@
 
 Route::get('/', 'TasksController@index');
 
-Route::resource('tasks', 'TasksControllre');
+Route::resource('tasks', 'TasksController');
